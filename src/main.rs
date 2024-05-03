@@ -34,6 +34,7 @@ impl Podcast {
     <head>
         <title>Nava podcast #{}</title>
         <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+        
         <style>
             .fa-chevron-right {{
                 display: none;
@@ -45,6 +46,7 @@ impl Podcast {
     </head>
     <body>
         <main>
+        <div></div>
             <article>
                 <a href="/">&larr; all episodes</a>
                 <h1># {}</h1>
